@@ -1,0 +1,110 @@
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    padding: 20px 0;
+    transition: background 0.3s ease-in;
+}
+.header._white{
+    background: white;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header__logo{
+    font-size: 28px;
+    font-weight: 600;
+}
+.header .container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.header__nav{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+    margin-left: 40px;
+}
+.header__nav a{
+    font-weight: 400;
+}
+
+@media screen and (min-width:1400px){
+    .header .container{
+        max-width: 1400px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:778px){
+    .header .container{
+        justify-content: space-between;
+    }
+    .header__logo{
+        z-index: 2;
+    }
+    .header__burger{
+        width: 30px;
+        height: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .header__burger div, .header__burger::before, .header__burger::after{
+        width: 100%;
+        background: black;
+        height: 3px;
+        pointer-events: none;
+    }
+    .header__burger::before, .header__burger::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        transition: transform 0.3s ease;
+    }
+    .header__burger::before{
+        top: 0;
+    }
+    .header__burger::after{
+        bottom: 0;
+    }
+    .header__nav{
+        visibility: hidden;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .header__nav._active{
+        visibility: visible;
+        background: white;
+        top: 0;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        height: 100vh;
+        grid-auto-flow: row;
+        justify-content: start;
+        grid-template-rows: min-content;
+        align-items: flex-start;
+        text-align: start;
+        padding: 70px 0 0 20px;
+        row-gap: 20px;
+        opacity: 1;
+    }
+    .header__burger._active div{
+        display: none;
+    }
+    .header__burger._active::before{
+        transform: rotate(45deg);
+        top: 10px;
+    }
+    .header__burger._active::after{
+        transform: rotate(-45deg);
+        bottom: auto;
+        top: 10px;
+    }
+}

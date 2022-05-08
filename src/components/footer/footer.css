@@ -1,0 +1,32 @@
+
+#footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+
+
+}
+
+#footer-site a {
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.widget-social li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.widget-social li i:hover {
+    color: orange;
+}
