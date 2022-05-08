@@ -6,7 +6,7 @@
 18:00 -  20:00 -  защита проектов и подведение итого
 #### Задание на хакатон решение любых социальных проблем 
 
-#### Команда ITLeadies:
+#### Команда ITLadies:
 * Алиса https://github.com/AlisaCosmos
 * Елизавета https://github.com/chemicalorange
 * Маргарита  https://github.com/Margolen
