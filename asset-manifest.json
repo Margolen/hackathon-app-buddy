@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/appBuddy/static/css/main.0dbe7b86.css",
+    "main.js": "/appBuddy/static/js/main.81edeefb.js",
+    "index.html": "/appBuddy/index.html",
+    "main.0dbe7b86.css.map": "/appBuddy/static/css/main.0dbe7b86.css.map",
+    "main.81edeefb.js.map": "/appBuddy/static/js/main.81edeefb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dbe7b86.css",
+    "static/js/main.81edeefb.js"
+  ]
+}
