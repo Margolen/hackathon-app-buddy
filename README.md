@@ -21,3 +21,6 @@
 Скриншот приложения
 ![screenshot_appRete](https://i.imgur.com/24aqVVF.png)
 
+Ссылка на развернутый  проект на GitHub pages
+https://alisacosmos.github.io/appBuddy/
+
