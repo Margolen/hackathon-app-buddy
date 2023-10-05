@@ -20,4 +20,4 @@ Our team has developed a convenient web application for finding buddies 🥳
 
 **Overview of the Buddy System:**
 
-https://alisacosmos.github.io/appBuddy/
+https://appbody.on.fleek.co/
